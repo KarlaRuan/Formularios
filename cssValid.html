@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hola mundo</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		input:valid + span:after{
+			content: '\f00c';
+			font-family: FontAwesome;
+			color: green;
+		}
+		input:invalid + span:after{
+			content: '\f00d';
+			font-family: FontAwesome;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<form class="" action="index.html" method="post">
+		<div>
+			<input type="text">
+			<span></span>
+		</div>
+		<div>
+			<input type="text" required>
+			<span></span>
+		</div>
+		<div>
+			<input type="email" required>
+			<span></span>
+		</div>
+	</form>
+
+	<button id="button">Probar</button>
+
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
